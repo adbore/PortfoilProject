@@ -63,6 +63,8 @@ JOIN PortfoiloProject..CovidVaccinations vac
 WHERE dea.continent IS NOT NULL
 ORDER BY 2,3
 
+---USE CTE
+
 With PopvsVac (Continent, Location, Population, NewVaccinations, RollingPeopleVaccinated)
 AS
 (
